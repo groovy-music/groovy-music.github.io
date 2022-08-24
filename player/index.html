@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Groovy Music</title>
+      <meta data-n-head="ssr" data-hid="robots" name="robots" content="index, follow">
+      <meta data-n-head="ssr" data-hid="application-name" name="application-name" content="Groovy">
+      <meta data-n-head="ssr" data-hid="charset" charset="utf-8">
+      <meta data-n-head="ssr" data-hid="viewport" name="viewport" content="width=device-width,initial-scale=1">
+      <meta data-n-head="ssr" data-hid="mobile-web-app-capable" name="mobile-web-app-capable" content="yes">
+      <meta data-n-head="ssr" data-hid="apple-mobile-web-app-title" name="apple-mobile-web-app-title" content="GroovyMusic">
+      <meta data-n-head="ssr" data-hid="theme-color" name="theme-color" content="#78a4fa">
+      <meta data-n-head="ssr" data-hid="og:type" name="og:type" property="og:type" content="website">
+      <meta data-n-head="ssr" data-hid="og:image" name="og:image" property="og:image" content="https://groovy.bot/_nuxt/icons/icon_512x512.321737.png">
+      <meta data-n-head="ssr" data-hid="og:image:width" name="og:image:width" property="og:image:width" content="512">
+      <meta data-n-head="ssr" data-hid="og:image:height" name="og:image:height" property="og:image:height" content="512">
+      <meta data-n-head="ssr" data-hid="og:image:type" name="og:image:type" property="og:image:type" content="image/png">
+      <meta data-n-head="ssr" data-hid="og:title" property="og:title" content="Groovy Music">
+      <meta data-n-head="ssr" data-hid="og:site_name" property="og:site_name" content="Groovy">
+      <link data-n-head="ssr" data-hid="shortcut-icon" rel="shortcut icon" href="https://groovy.bot/_nuxt/icons/icon_64x64.321737.png">
+      <link data-n-head="ssr" data-hid="apple-touch-icon" rel="apple-touch-icon" href="https://groovy.bot/_nuxt/icons/icon_512x512.321737.png" sizes="512x512">
+      <style type="text/css">
+         body {
+            background: #303030;
+            color: #eee;
+            overflow: hidden;
+         }
+         audio::-webkit-media-controls-panel {
+            background: #c3c3c3;
+         }
+         .audio {
+            display: block;
+            margin-top: .9em !important;
+         }
+         .cover {
+            display: inline-block;
+            width: 2em;
+            margin-left: 37%;
+            margin-top: 1em;
+            border-radius: 1em;
+            scale: 150%;
+         }
+         .htitle {
+            display: inline-block;
+            font-size: 2em;
+            font-family: Comfortaa;
+            font-weight: bold;
+            text-align: center;
+            margin-left: .5em;
+         }
+         .player {
+            text-align: center;
+            width: 40%;
+            margin-left: 30%;
+            margin-top: 1em;
+            padding-top: 2em;
+         }
+         @media screen and (min-width: 600px) {
+            .audio {
+               margin-left: 14%;
+               margin-top: .6em;
+            }
+         }
+         @media screen and (max-width: 500px) {
+            .cover {
+               margin-left: 20%;
+               scale: 140%;
+            }
+            .htitle {
+               font-size: 1.7em;
+            }
+            .player {
+               width: 100%;
+               margin-left: 0;
+               padding-left: 3em;
+            }
+            .audio {
+               margin-top: .6em;
+            }
+         }
+         @media screen and (max-width: 400px) {
+            .cover {
+               margin-left: 16%;
+               scale: 140%;
+            }
+            .htitle {
+               font-size: 1.7em;
+            }
+            .player {
+               width: 100%;
+               margin-left: 0;
+               padding-left: 1.5em;
+            }
+            .audio {
+               margin-top: .6em;
+            }
+         }
+         @media screen and (max-width: 350px) {
+            .cover {
+               margin-left: 10%;
+               scale: 140%;
+            }
+            .htitle {
+               font-size: 1.7em;
+            }
+            .player {
+               width: 100%;
+               margin-left: 0;
+               padding-left: .3em;
+            }
+            .audio {
+               margin-top: .6em;
+               width: 90%;
+            }
+         }
+      </style>
+</head>
+<body>
+<header>
+   <img class="cover" src="./assets/groovy-music.jpg">
+   <div class="htitle">Groovy Player</div>
+</header>
+<div id="main">
+   <div class="player">
+      <audio class="audio" controls loop>
+         <source src="./assets/music/BLACKPINK_DDU_DU_DDU_DU_REMIX_ENCORE_DVD_TOKYO_DOME_202_EaWyG6vt7do.mp3" type="audio/mp3">
+      </audio>
+      <audio class="audio" controls loop>
+         <source src="./assets/music/BLACKPINK_BOOMBAYAH_AS_IF_IT_S_YOUR_LAST_DVD_TOKYO_DOME_edbxh9sogz0.mp3" type="audio/mp3">
+      </audio>
+      <audio class="audio" controls loop>
+         <source src="./assets/music/BLACKPINK_KISS_AND_MAKE_UP_REALLY_DVD_TOKYO_DOME_2020_QOrfY_GSP9A.mp3" type="audio/mp3">
+      </audio>
+      <audio class="audio" controls loop>
+         <source src="./assets/music/BLACKPINK_FOREVER_YOUNG_DVD_TOKYO_DOME_2020_TT0rQgXFn7I_140.mp3" type="audio/mp3">
+      </audio>
+      <audio class="audio" controls loop>
+         <source src="./assets/music/BLACKPINK_KILL_THIS_LOVE_DON_T_KNOW_WHAT_TO_DO_DVD_TOKY_PZ8G_9_dfpM.mp3" type="audio/mp3">
+      </audio>
+   </div>
+</div>
+</body>
+</html>
